@@ -11,8 +11,7 @@ vim.opt.relativenumber = true
 --set cursorline
 
 --show both nu & rnu
-vim.o.statuscolumn = "%s %l %r "
-
+vim.o.statuscolumn = "%s %l %s %r "
 
 --syntax highlighting
 vim.cmd("syntax on")
