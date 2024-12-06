@@ -1,0 +1,15 @@
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+
+xscreensaver &
+ulauncher &
+fcitx &
+synology-cloud-station-drive &
+nm-applet &
+dunst &
+dunstctl set-paused toggle &
+sct 3000 &
+xinput set-prop "Elan Touchpad" "libinput Natural Scrolling Enabled" 1 &
+xinput set-prop "Elan Touchpad" "libinput Tapping Enabled" 1 &
+feh --bg-fill /home/andy/.icewm/black.jpg
