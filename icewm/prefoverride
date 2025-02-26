@@ -939,7 +939,7 @@ KeyWinMove="Alt+z"
 KeyWinSize=""
 
 # "Minimize window" shortcut
-KeyWinMinimize="Alt+Down"
+KeyWinMinimize="Alt+m"
 
 # "Maximize window" shortcut
 KeyWinMaximize="Alt+Up"

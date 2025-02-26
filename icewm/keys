@@ -26,14 +26,14 @@ key "XF86MonBrightnessUp"   brightnessctl set +2%
 key "Alt+Space"             xfce4-terminal
 key "Ctrl+f"                thunar
 key "Print"                 gnome-screenshot -w
-key "Alt+Left"              icesh -f left top sizeto 965 1055
-key "Alt+Right"             icesh -f right top sizeto 965 1055
-key "Alt+;"					icesh -f left top sizeto 965 528
-key "Alt+'"					icesh -f right top sizeto 965 528
-key "Alt+."					icesh -f left bottom sizeto 965 528
-key "Alt+/"					icesh -f right bottom sizeto 965 528
+key "Alt+Left"              icesh -f moveby -965 0
+key "Alt+Right"             icesh -f moveby 965 0
+key "Alt+Up"                icesh -f moveby 0 -965
+key "Alt+Down"              icesh -f moveby 0 965
+key "Alt+'"					icesh -f center top sizeto 965 1055
+key "Alt+/"					icesh -f center top sizeto 965 528
 key "Ctrl+Alt+Left"         icesh goto I
 key "Ctrl+Alt+Right"        icesh goto II
 key "Alt+BackSpace"         dunstctl set-paused toggle
 key "Alt+Delete"            dunstctl close-all
-key "Shift+Alt+XF86Favorites"	xscreensaver-command -lock
+key "Shift+Alt+XF86Favorites" dm-tool lock
