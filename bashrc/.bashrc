@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls -l --color=auto'
+alias ls='ls -l -h --color=auto'
 alias sdn='shutdown now'
 alias clear='clear'
 alias vim='nvim'
