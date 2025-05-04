@@ -6,18 +6,21 @@ vim.opt.nu = true
 vim.cmd("colorscheme sorbet")
 
 --relative number
-vim.opt.relativenumber = true
+--vim.opt.relativenumber = true
 
 --set cursorline
 
 --show both nu & rnu
-vim.o.statuscolumn = "%s %l %s %r "
+vim.opt.statuscolumn = "%s %l %r "
 
 --syntax highlighting
 vim.cmd("syntax on")
 
 --indentation according to different file type
 vim.cmd("filetype indent on")
+
+--enable syntax highlighting for .tpp files
+au! BufNewFile,BufRead *.tpp set filetype=cpp
 
 --automatic indentation
 vim.opt.autoindent = true
