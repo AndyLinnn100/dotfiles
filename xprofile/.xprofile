@@ -2,11 +2,15 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 
-xscreensaver &
+tlp start & 
+light-locker --lock-on-suspend &
+light-locker --lock-on-lid &
+picom -b &
 ulauncher &
 fcitx &
-synology-cloud-station-drive &
 nm-applet &
+bluetooth off &
+blueman-applet &
 dunst &
 dunstctl set-paused toggle &
 sct 3000 &

@@ -5,10 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls -l -h --color=auto'
-alias sdn='shutdown now'
+alias ls='ls -l -h --group-directories-first --color=auto'
 alias clear='clear'
 alias vim='nvim'
+alias emacs='emacs -nw'
 PS1='[\u@\h \W]\$ '
 
 # The next line updates PATH for the Google Cloud SDK.

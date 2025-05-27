@@ -1,4 +1,7 @@
 
+--disable mouse
+vim.opt.mouse = ""
+
 --show line number
 vim.opt.nu = true
 
