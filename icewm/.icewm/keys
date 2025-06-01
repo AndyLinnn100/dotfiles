@@ -24,7 +24,7 @@ key "XF86AudioMicMute"      pactl set-source-mute 0 toggle
 key "XF86MonBrightnessDown" brightnessctl set 5%-
 key "XF86MonBrightnessUp"   brightnessctl set +5%
 key "Alt+Space"             xfce4-terminal
-key "Ctrl+f"                thunar
+key "Alt+f"                thunar
 key "Print"                 gnome-screenshot -w
 key "Alt+Left"              icesh -f left
 key "Alt+Right"             icesh -f right
